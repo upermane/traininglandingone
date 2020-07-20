@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    font-family: 'Khula', sans-serif;
 }
   
   *,
@@ -14,7 +15,7 @@ li {
   list-style: none;
 }
 
-.container{
+.container {
     max-width: 1230px;
     margin: 0 auto;
     padding: 0 15px;
@@ -26,14 +27,43 @@ li {
     padding: 30px 0;
     border-bottom: 1px solid #828282;
 }
-.menu-link{
-    font-size: 18px;
+.menu-link {
     text-decoration: none;
     color: #828282;
-    font-family: 'Khula', sans-serif;
+    font-size: 18px;
     font-weight: 600;
     transition: all 0.3s;
 }
-.menu-link:hover{
+.menu-link--active {
     color: #070707;
+}
+
+.menu-link:hover {
+    color: #070707;
+}
+
+.desc__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.desc__box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 50px 0;
+}
+.desc__name {
+    font-size: 38px;
+    font-weight: 700;
+}
+.desc__text {
+    font-size: 18px;
+    font-weight: 600;
+}
+.carryover {
+    display: block;
+}
+.myphoto {
+    width: 100%;
 }
