@@ -77,7 +77,8 @@ li {
     background: #F6F6F6;
 }
 .about__title,
-.skills__title  {
+.skills__title,
+.portfolio__title  {
     font-size: 34px;
     font-weight: 700;
 }
@@ -94,7 +95,9 @@ li {
 .skills{
     padding: 90px 0 110px;
 }
-.skills__wrapper {
+.skills__wrapper,
+.portfolio__wrapper,
+.portfolio__preview {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -132,4 +135,20 @@ li {
     height: 26px;
     background-image: url(../images/skills/Star-black.svg);
     background-repeat: no-repeat;
+}
+
+.portfolio {
+    background-color: #F6F6F6;
+    padding: 110px 0 90px;
+}
+.portfolio__preview {
+    padding-top: 100px;
+    align-items: center;
+}
+.portfolio__preview-link {
+    padding-top: 44px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: underline;
+    color: #070707;
 }
