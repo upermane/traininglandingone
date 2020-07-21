@@ -173,3 +173,24 @@ li {
     outline: none;
     cursor: pointer;
 }
+.footer {
+    padding-bottom: 110px;
+}
+.footer-list {
+    display: flex;
+    justify-content: center;
+}
+.footer-item {
+    padding: 0 30px;
+}
+.footer__text {
+    padding-top: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #828282;
+    text-align: center;
+}
+.footer__text-link {
+    text-decoration: none;
+    color: #828282;
+}
