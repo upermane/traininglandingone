@@ -78,7 +78,8 @@ li {
 }
 .about__title,
 .skills__title,
-.portfolio__title  {
+.portfolio__title,
+.contacts__title  {
     font-size: 34px;
     font-weight: 700;
 }
@@ -97,7 +98,8 @@ li {
 }
 .skills__wrapper,
 .portfolio__wrapper,
-.portfolio__preview {
+.portfolio__preview,
+.contacts {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -151,4 +153,23 @@ li {
     font-weight: 600;
     text-decoration: underline;
     color: #070707;
+}
+.contacts {
+    padding: 110px 0 80px;
+}
+.contacts__text {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px 0 30px;
+}
+.btn-message{
+    padding: 10px 29px;
+    border-radius: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    background-color: #070707;
+    border: none; 
+    outline: none;
+    cursor: pointer;
 }
